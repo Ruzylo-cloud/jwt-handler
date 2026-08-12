@@ -1,9 +1,10 @@
 # jwt-handler
+> Minimal JWT generation and validation using HMAC-SHA256 (HS256), built on Node's crypto module with zero dependencies.
 
-Minimal JWT generation and validation using HMAC-SHA256 (HS256). ```javascript const jwt = new JWTHandler(secret);
+Signs and verifies JSON Web Tokens with the HS256 algorithm only. Handles expiration claims, base64url encoding, and signature verification. Does not implement RS256 or refresh tokens; use a full JWT library if you need asymmetric signing.
 
 ## API
-- `JWTHandler`
+- `JWTHandler` - class with `sign(payload, expiresIn)` and `verify(token)` methods
 
 ## Install
 Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
