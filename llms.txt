@@ -1,0 +1,11 @@
+# jwt-handler
+
+Minimal JWT generation and validation using HMAC-SHA256 (HS256). ```javascript const jwt = new JWTHandler(secret);
+
+## API
+- `JWTHandler`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
