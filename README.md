@@ -15,3 +15,4 @@ const verified = jwt.verify(token);
 - ✓ Ferrow auth middleware
 
 ## License: MIT
+## Examples
