@@ -1,6 +1,6 @@
 # JWT Handler
 
-Secure JWT generation and validation. Ferrow agent authentication.
+Minimal JWT generation and validation using HMAC-SHA256 (HS256).
 
 ```javascript
 const jwt = new JWTHandler(secret);
@@ -9,10 +9,9 @@ const verified = jwt.verify(token);
 ```
 
 ## Features
-- ✓ HS256/RS256 support
-- ✓ Expiration handling
-- ✓ Refresh tokens
-- ✓ Ferrow auth middleware
+- HS256 signing and verification
+- Expiration handling
 
 ## License: MIT
-## Examples
+
+Sponsored by [Ferrow](https://ferrow.ai)
