@@ -1,4 +1,8 @@
 # JWT Handler
+
+```sh
+npm install @ferrow/jwt-handler
+```
 ![CI](https://github.com/FerrowAI/jwt-handler/actions/workflows/ci.yml/badge.svg)
 
 Minimal JWT generation and validation using HMAC-SHA256 (HS256).

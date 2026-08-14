@@ -1,1 +1,22 @@
-{"name":"jwt-handler","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","test":"jest"},"keywords":["jwt","hmac","hs256","auth","token","typescript"],"license":"MIT","devDependencies":{"@types/node":"^26.2.0"}}
+{
+  "name": "@ferrow/jwt-handler",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "jwt",
+    "hmac",
+    "hs256",
+    "auth",
+    "token",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.2.0"
+  }
+}
